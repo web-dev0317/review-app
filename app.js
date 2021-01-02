@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 const ejs = require('ejs');
 const mongoose = require('mongoose');
-const review = require('./models/review');
 const Review = require('./models/review');
 
 require('dotenv').config();
